@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,700italic,800,300,300italic,400italic,400,600,600italic' rel='stylesheet' type='text/css'>
+<!--Custom-Theme-files-->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+	<script src="js/jquery.min.js"> </script>
+<!--/script-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+</head>
+<body>
+	<!--start-home-->
+	<div id="home" class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><h1>Birthday <span> Day</span></h1></a>
+				</div>
+				<span class="menu"> </span>
+				    <div class="top-menu">
+						<ul class="cl-effect-7">
+								<li><a class="active" href="index.html">主页</a></li>
+								<li><a href="story.html">故事</a></li>
+								<li><a href="ceremony.html">留言</a></li>
+								<li><a href="albums.html">相册</a></li>
+								<li><a href="contact.html">更多</a></li>
+							</ul>
+				</div>
+            <!-- script-for-menu -->
+				<script>
+				$( "span.menu" ).click(function() {
+				  $( ".top-menu" ).slideToggle( "slow", function() {
+				    // Animation complete.
+				  });
+				});
+			</script>
+			<div class="clearfix"></div>
+	<!--End-top-nav-script-->
+			</div>
+		</div>
+       </div>
+	<div class="banner">
+	     	<div class="container">
+					<div  class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					<li>
+								<div class="banner-info">
+									<h3>Happy <span>Everyday</span></h3>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+								   <h3>Zuo & <span> Jerry</span> </h3>
+								</div>
+							</li>
+							<li>
+								<div class="banner-info">
+								    <h3>Getting <span>Love</span></h3>
+								</div>								
+							</li>
+						</ul>
+					</div>
+					<!--banner-->
+	  			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			 <!--main-drop-->
+			 <div class="main-drop">
+			   <img src="images/hands.jpg" alt=""/>
+			    <div class="hands">
+				    <h4>Confession</h4>
+			         <div class="section_room">
+						<a href="https://coding-zuo.github.io/Jerry-Zuo/" target="_blank" style="">Click Here</a>
+					</div>	
+
+				</div>
+				 <div class="couple">
+				 <div class="bride">
+				   <img src="image/her/her12.jpeg" class="img-responsive" alt="">
+				   <h5>💕Jerry</h5>
+				 </div>
+				 <div class="groom">
+				  <img src="image/his/his4.jpeg" class="img-responsive" alt="">
+				 <h5>Zuo 💗</h5>
+				 </div>
+			 </div>
+			 </div>
+			 <!--//main-drop-->
+			</div>
+		 </div>
+	<!--welcome-->
+	   <div class="welcome">
+		    <div class="container">
+				<div class="welcome-top">
+				    <img src="image/we/we2.jpeg" class="img-responsive" alt="">
+					 <h2>Zuo & Jerry</h2>
+					 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p>
+					   <a class="read" href="single.html">Read More</a>
+				    </div>
+				</div>
+			</div>
+		 <!--//welcome-->
+	<!--registry-->
+	     <div class="registry-section">
+		     <h3 class="tittle">Family</h3>
+			  <div class="registry">
+				   <div class="col-md-6 registry-left">
+				   
+					<div class="registry-text">
+					<h4>Her family of three</h4>
+					<h6>1996年4月19日，她降生在这个家庭</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucibus cura. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor.</p>
+					</div>
+					 <a href="single.html" class="mask"><img src="image/his/his1.jpeg" alt="image" class="img-responsive zoom-img"></a>
+				   </div>
+				    <div class="col-md-6 registry-right">
+					 <a href="single.html" class="mask"><img src="image/her/her13.jpeg" alt="image" class="img-responsive zoom-img"></a>
+					<div class="registry-text">
+					<h4>His family of three</h4>
+					<h6>1 : 30 pm In The Garden</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucibus cura. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor.</p>
+					</div>
+					 
+					</div>
+					<div class="clearfix"> </div>
+			  </div>
+		 </div>
+	<!--//registry-->
+	
+	<!--start-services-->
+<div class="friends-section">
+				    <h3 class="tittle">Friends says</h3>
+    <div class="friends">
+	     	<div class="container">
+			<div class="testimonial-content">
+			    <p> <img src="images/quote.png" class="img-responsive" alt=""> 祝福你们! &nbsp;Christine an Peter I am glad to here that you are starting your new life after the excellent moments together&nbsp;I wish you for all your dreams of tomorrow<img src="images/quote1.png" class="img-responsive" alt=""> </p>
+		    </div>
+			 
+					<div  class="callbacks_container">
+					<ul class="rslides" id="slider3">
+					          <li>
+								 <div  class="test"> <img src="image/others/yang.jpeg" class="img-responsive" alt=""><h5>杨帼靖</h5></div>
+							   </li>
+							<li>
+								  <div  class="test">  <img src="image/others/qiang.jpeg" class="img-responsive" alt=""><h5>陈强</h5></div>							
+							</li>
+							<li>
+								   <div  class="test"> <img src="image/others/yan.jpeg" class="img-responsive" alt=""><h5>张宇燕</h5></div>
+	
+							</li>
+						</ul>
+					</div>
+					<!--banner-->
+	  			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 3
+			      $("#slider3").responsiveSlides({
+			        auto: true,
+			        pager:false,
+			        nav:true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	</div>
+ </div>
+ </div>
+ <!--//testimonials-->
+ <!--/program-->
+			   <div class="program">
+		           <div class="container">
+				     <h3 class="tittle"> Message Board</h3>
+					   <div class="col-md-6 program-img">
+					    <a href="single.html" class="mask"><img src="images/menu.jpg" alt="image" class="img-responsive zoom-img"></a>
+						<h4>Message of Blessedness</h4>
+						<p>在这里，为Zuo&Jerry提供留言阅览.</p>
+					   </div>
+					    <div class="col-md-6 program-text">
+						<div class="scrollbar" id="style-2">
+								   <div class="force-overflow">
+
+								    <div class="popular-post-grids">
+										<div class="popular-post-grid">
+											<div class="post-time">
+												<a href="single.html">11 : 30 </a>
+											</div>
+											<div class="post-text">
+											<h4><a class="pp-title" href="single.html">Wedding Ceremony</a></h4>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucib.</p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-time">
+												<a href="single.html">12 : 30 </a>
+											</div>
+											<div class="post-text">
+												<h4><a class="pp-title" href="single.html">Photo Shoot with all</a></h4>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucib.</p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-time">
+												<a href="single.html">01 : 30 </a>
+											</div>
+											<div class="post-text">
+											<h4><a class="pp-title" href="single.html">Lunch Time</a></h4>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucib.</p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+										<div class="popular-post-grid">
+											<div class="post-time">
+												<a href="single.html">11 : 30 </a>
+											</div>
+											<div class="post-text">
+												<h4><a class="pp-title" href="single.html">Wedding Ceremony</a></h4>
+						                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat purus sed tempus ornare. Sed convallis eu orci ut sodales. Nam rhoncus laoreet elit, a condimentum augue tempor vitae in faucib.</p>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div>
+					   </div>
+					   </div>
+									</div>
+					   <div class="clearfix"> </div>
+			       </div>
+			    </div>
+       <div class="attend">
+	           <h3 class="tittle atd">Login this Love website</h3>
+	         <div class="rsvp">
+                      <form>
+					    	<div>
+						    	<span><label>Your Name</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						    <span><label>Your Password</label></span>
+						    	<span><input name="userEmail" type="text" class="textbox"></span>
+						    </div>
+						    <div>
+						     	<span><label>是否立即进入后台管理</label></span>
+						    	<span><select name="event"><option value="YES">YES</option><option value="NO">NO</option></select></span>
+						    </div>
+							<div>
+						    	<span><label>Love暗号</label></span>
+						    	<span><input name="userName" type="text" class="textbox"></span>
+						    </div>
+							 <div class="sub">
+						   		<input type="submit" value="INTO LOVE" />
+						  </div>
+
+					    </form>
+			       </div>
+			    </div>
+	<!--/footer-->
+
+	     <div class="footer">
+		    <div class="container">
+				 <div class="footer-top">
+				    <div class="col-md-4 footer-grid">
+					     <h4>Zuo <span>Technology</span></h4>
+				          <ul class="bottom">
+							 <li>Zuo&Jerry</li>
+							 <li>Zuo 科技</li>
+						 </ul>
+				    </div>
+					  <div class="col-md-4 footer-grid">
+					     <h4>Message Us  <span>Now </span></h4>
+				            <ul class="bottom">
+						     <li><i class="glyphicon glyphicon-home"></i>www.imau.edu.cn</li>
+							 <li><i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@example.com">zzuuoo666@sina.com</a></li>
+						   </ul>
+				    </div>
+					<div class="col-md-4 footer-grid">
+					     <h4>Address  <span>Location </span></h4>
+				           <ul class="bottom">
+						     <li><i class="glyphicon glyphicon-map-marker"></i>内蒙古农业大学</li>
+							 <li><i class="glyphicon glyphicon-earphone"></i>phone:  152-xxxx-0688 </li>
+						   </ul>
+				    </div>
+					<div class="clearfix"> </div>
+				 </div>
+			</div>
+	     </div>
+		<div class="copy">
+		    <p>Copyright &copy; 2017.Zuo&Jerry All rights reserved。<br>Zuo 版权所有</p>
+		</div>
+		<!--//footer-->
+			<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+</body>
+</html>
